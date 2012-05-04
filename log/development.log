@@ -6261,3 +6261,1677 @@ SyntaxError (/Users/lui/workspace/rails/clube-do-pao/app/mailers/notifier.rb:7: 
   Rendered /Users/lui/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
   Rendered /Users/lui/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
   Rendered /Users/lui/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (104.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-04 17:57:37 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /events.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /members.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /members.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /events.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:38 -0300
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (0.1ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 17ms (Views: 10.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:44 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/members/3" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Processing by MembersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "id"=>"3"}
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (52.9ms)[0m  DELETE FROM "members" WHERE "members"."id" = ?  [["id", 3]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/members
+Completed 302 Found in 58ms (ActiveRecord: 54.6ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 17:57:47 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (186.3ms)
+  Rendered members/new.html.erb within layouts/application (189.8ms)
+Completed 200 OK in 198ms (Views: 197.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 17:58:15 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 17:58:16 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-05-04 17:58:37 -0300
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "member"=>{"name"=>"LUI", "email"=>"brunollui@gmail.com"}, "commit"=>"Create Member"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "members" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Fri, 04 May 2012 20:58:37 UTC +00:00], ["email", "brunollui@gmail.com"], ["name", "LUI"], ["updated_at", Fri, 04 May 2012 20:58:37 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (/Users/lui/workspace/rails/clube-do-pao/app/mailers/notifier.rb:7: invalid multibyte char (US-ASCII)
+/Users/lui/workspace/rails/clube-do-pao/app/mailers/notifier.rb:7: invalid multibyte char (US-ASCII)
+/Users/lui/workspace/rails/clube-do-pao/app/mailers/notifier.rb:7: syntax error, unexpected $end, expecting ')'
+    mail(:to => member.email, :subject => "Welcome to Clube do pão")
+                                                                  ^):
+  app/controllers/members_controller.rb:48:in `block in create'
+  app/controllers/members_controller.rb:45:in `create'
+
+
+  Rendered /Users/lui/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /Users/lui/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/lui/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (0.1ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 16ms (Views: 9.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:03:57 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/members/4" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Processing by MembersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "id"=>"4"}
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "members" WHERE "members"."id" = ?[0m  [["id", 4]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/members
+Completed 302 Found in 7ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:00 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.6ms)
+  Rendered members/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:01 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-05-04 18:04:07 -0300
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "member"=>{"name"=>"d", "email"=>"brunollui@gmail.com"}, "commit"=>"Create Member"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "members" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 04 May 2012 21:04:07 UTC +00:00], ["email", "brunollui@gmail.com"], ["name", "d"], ["updated_at", Fri, 04 May 2012 21:04:07 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+
+Sent mail to brunollui@gmail.com (6573ms)
+Date: Fri, 04 May 2012 18:04:08 -0300
+From: notifications@example.com
+To: brunollui@gmail.com
+Message-ID: <4fa444484184e_22863fdd91fa51a03594d@lui-5.local.mail>
+Subject: =?UTF-8?Q?Welcome_to_Clube_do_p=C3=A3o?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+Redirected to http://localhost:3000/members/5
+Completed 302 Found in 7079ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/members/5" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered members/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 54ms (Views: 21.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:04:14 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 16ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:07:48 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/members/5" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Processing by MembersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "id"=>"5"}
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "members" WHERE "members"."id" = ?[0m  [["id", 5]]
+  [1m[35m (1.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/members
+Completed 302 Found in 11ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:34 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.0ms)
+  Rendered members/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:35 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:31:36 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-05-04 18:31:41 -0300
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "member"=>{"name"=>"lui", "email"=>"brunollui@gmail.com"}, "commit"=>"Create Member"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "members" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 04 May 2012 21:31:41 UTC +00:00], ["email", "brunollui@gmail.com"], ["name", "lui"], ["updated_at", Fri, 04 May 2012 21:31:41 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/lui/workspace/rails/clube-do-pao/app/mailers/notifier.rb:10: syntax error, unexpected tSYMBEG, expecting ')'
+         :template_path => 'notifier',
+          ^
+/Users/lui/workspace/rails/clube-do-pao/app/mailers/notifier.rb:10: syntax error, unexpected ',', expecting keyword_end
+/Users/lui/workspace/rails/clube-do-pao/app/mailers/notifier.rb:11: syntax error, unexpected ')', expecting keyword_end
+         :template_name => 'notification'))
+                                          ^):
+  app/controllers/members_controller.rb:48:in `block in create'
+  app/controllers/members_controller.rb:45:in `create'
+
+
+  Rendered /Users/lui/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/lui/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/lui/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:35 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (0.1ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 18ms (Views: 10.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:37 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/members/6" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Processing by MembersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "id"=>"6"}
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "members" WHERE "members"."id" = ?  [["id", 6]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/members
+Completed 302 Found in 7ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:39 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-05-04 18:32:40 -0300
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.2ms)
+  Rendered members/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:40 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:40 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:40 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:40 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:40 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:40 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:40 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:40 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:40 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:41 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:41 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-05-04 18:32:46 -0300
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "member"=>{"name"=>"lui", "email"=>"brunollui@gmail.com"}, "commit"=>"Create Member"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "members" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Fri, 04 May 2012 21:32:46 UTC +00:00], ["email", "brunollui@gmail.com"], ["name", "lui"], ["updated_at", Fri, 04 May 2012 21:32:46 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+
+Sent mail to brunollui@gmail.com (5081ms)
+Date: Fri, 04 May 2012 18:32:46 -0300
+From: notifications@example.com
+To: brunollui@gmail.com
+Message-ID: <4fa44afeb0621_22863fdd93323a74360d2@lui-5.local.mail>
+Subject: =?UTF-8?Q?Clube_do_p=C3=A3o?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+Redirected to http://localhost:3000/members/7
+Completed 302 Found in 5102ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/members/7" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mMember Load (0.1ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "7"]]
+  Rendered members/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:32:51 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 16ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:05 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:06 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/members/7" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Processing by MembersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "id"=>"7"}
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "members" WHERE "members"."id" = ?  [["id", 7]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/members
+Completed 302 Found in 9ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (0.3ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:08 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.2ms)
+  Rendered members/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:09 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-05-04 18:37:15 -0300
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "member"=>{"name"=>"lui", "email"=>"brunollui@gmail.com"}, "commit"=>"Create Member"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "members" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Fri, 04 May 2012 21:37:15 UTC +00:00], ["email", "brunollui@gmail.com"], ["name", "lui"], ["updated_at", Fri, 04 May 2012 21:37:15 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+
+Sent mail to brunollui@gmail.com (4033ms)
+Date: Fri, 04 May 2012 18:37:15 -0300
+From: notifications@example.com
+To: brunollui@gmail.com
+Message-ID: <4fa44c0b413fa_22863fdd92a2fa1c36191@lui-5.local.mail>
+Subject: =?UTF-8?Q?Clube_do_p=C3=A3o?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+Redirected to http://localhost:3000/members/8
+Completed 302 Found in 4052ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/members/8" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "8"]]
+  Rendered members/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:37:19 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:29 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/members/8" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Processing by MembersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "id"=>"8"}
+  [1m[35mMember Load (0.1ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "members" WHERE "members"."id" = ?  [["id", 8]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/members
+Completed 302 Found in 4ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /events.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:31 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.0ms)
+  Rendered members/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:32 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-05-04 18:39:38 -0300
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "member"=>{"name"=>"Lui", "email"=>"brunollui@gmail.com"}, "commit"=>"Create Member"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "members" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Fri, 04 May 2012 21:39:38 UTC +00:00], ["email", "brunollui@gmail.com"], ["name", "Lui"], ["updated_at", Fri, 04 May 2012 21:39:38 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+
+Sent mail to brunollui@gmail.com (3850ms)
+Date: Fri, 04 May 2012 18:39:38 -0300
+From: notifications@example.com
+To: brunollui@gmail.com
+Message-ID: <4fa44c9a5ad00_22863fdd92a0c64836271@lui-5.local.mail>
+Subject: =?UTF-8?Q?Clube_do_p=C3=A3o?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+Redirected to http://localhost:3000/members/9
+Completed 302 Found in 3861ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/members/9" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mMember Load (0.1ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered members/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:39:42 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:04 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/members/9" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Processing by MembersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "id"=>"9"}
+  [1m[35mMember Load (0.1ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "members" WHERE "members"."id" = ?  [["id", 9]]
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/members
+Completed 302 Found in 5ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:07 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.2ms)
+  Rendered members/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:08 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-05-04 18:41:13 -0300
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ztZEhNITF9AXMfVwn7ndDwkxCsSazaHekQb1Ge127/I=", "member"=>{"name"=>"Lui", "email"=>"brunollui@gmail.com"}, "commit"=>"Create Member"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "members" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Fri, 04 May 2012 21:41:13 UTC +00:00], ["email", "brunollui@gmail.com"], ["name", "Lui"], ["updated_at", Fri, 04 May 2012 21:41:13 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  Rendered notifier/welcome_email.text.erb (0.5ms)
+
+Sent mail to brunollui@gmail.com (3843ms)
+Date: Fri, 04 May 2012 18:41:13 -0300
+From: notifications@example.com
+To: brunollui@gmail.com
+Message-ID: <4fa44cf98d0cb_22863fdd9282001436319@lui-5.local.mail>
+Subject: =?UTF-8?Q?Clube_do_p=C3=A3o?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+V2VsY29tZSBMdWkKPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT0KIApZb3UgaGF2ZSBzdWNjZXNzZnVsbHkgc2lnbmVk
+IHVwIHRvIENsdWJlIGRvIHDDo28sCiAKVGhhbmtzIGZvciBqb2luaW5nIGFu
+ZCBoYXZlIGEgZ3JlYXQgZGF5IQ==
+
+Redirected to http://localhost:3000/members/10
+Completed 302 Found in 3860ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/members/10" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mMember Load (0.1ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered members/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-04 18:41:17 -0300
+Served asset /application.js - 304 Not Modified (0ms)
