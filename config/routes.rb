@@ -1,4 +1,5 @@
 ClubeDoPao::Application.routes.draw do
+  resources :events
   resources :members
 
   get "home/index"

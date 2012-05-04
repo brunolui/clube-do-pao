@@ -44,6 +44,9 @@ class MembersController < ApplicationController
 
     respond_to do |format|
       if @member.save
+        
+        Notifier.welcome_email(@member).deliver
+        
         format.html { redirect_to @member, notice: 'Member was successfully created.' }
         format.json { render json: @member, status: :created, location: @member }
       else
