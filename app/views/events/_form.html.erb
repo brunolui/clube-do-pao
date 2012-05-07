@@ -10,18 +10,22 @@
       </ul>
     </div>
   <% end %>
+  <br>
 
-  <div class="field">
-    <%= f.label :date %><br />
-    <%= f.date_select :date %>
-  </div>
+  <div align="center">
+   	<div class="field">
+    	<%= f.label :date %><br />
+    	<%= f.date_select :date %>
+  	</div>
 
-  <div class="field">
-    <%= f.label :member %><br />
-    <%= f.select :member_id, @members.collect {|member| [ member.name, member.id ] }  %>
-  </div>
-
-  <div class="actions">
-    <%= f.submit %>
+  	<div class="field">
+    	<%= f.label :member %><br />
+    	<%= f.select :member_id, @members.collect {|member| [ member.name, member.id ] }  %>
+  	</div>
+	<br><br>
+	
+  	<div class="actions">
+    	<%= f.submit %>
+  	</div>
   </div>
 <% end %>

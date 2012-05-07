@@ -1,10 +1,11 @@
-<h1>Listing members</h1>
+<div align="center">
+	<h2>Members</h2>
+</div>	
 
-<table>
+<table class="table">
   <tr>
     <th>Name</th>
     <th>Email</th>
-    <th></th>
     <th></th>
     <th></th>
   </tr>
@@ -13,7 +14,6 @@
   <tr>
     <td><%= member.name %></td>
     <td><%= member.email %></td>
-    <td><%= link_to 'Show', member %></td>
     <td><%= link_to 'Edit', edit_member_path(member) %></td>
     <td><%= link_to 'Destroy', member, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
@@ -22,4 +22,6 @@
 
 <br />
 
-<%= link_to 'New Member', new_member_path %>
+<div align="center">
+	<a class="btn btn-primary" href="/members/new">New Member</a>
+</div>
