@@ -43,9 +43,9 @@ class EventsController < ApplicationController
   # POST /events
   # POST /events.json
   def create
-    puts params[:event]
-        
     @event = Event.new(params[:event])
+    
+    Notifier.event_email(@event).deliver
     
     respond_to do |format|
       if @event.save

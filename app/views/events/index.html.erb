@@ -13,7 +13,7 @@
 
 <% @events.each do |event| %>
   <tr>
-    <td><%= event.date %></td>
+    <td><%= event.date :format => "%d/%m/%Y" %></td>
     <td><%= event.member %></td>
     <td><%= event.member.email %></td>
     <td><%= link_to 'Edit', edit_event_path(event) %></td>

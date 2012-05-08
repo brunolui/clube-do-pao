@@ -8,4 +8,8 @@ class Notifier < ActionMailer::Base
     mail(:to => member.email, :subject => "Clube do pão")
   end
   
+  def event_email(event)
+    @event = event
+    mail(:to => event.member.email, :subject => "Seu dia do Clube do pão")
+  end
 end
