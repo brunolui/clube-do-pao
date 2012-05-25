@@ -32,6 +32,8 @@ gem 'jquery-rails'
 # Use unicorn as the web server
 gem 'thin'
 
+gem 'heroku'
+
 # Deploy with Capistrano
 # gem 'capistrano'
 
